@@ -15,7 +15,7 @@ buttons.forEach(button => {
             try {
                 display.value = math.evaluate(display.value);
             } catch {
-                display.value = "error";
+                display.value = "error";//will display error if the equation in calc is incomplete
             }
         }
     });
